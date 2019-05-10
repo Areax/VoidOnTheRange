@@ -1,0 +1,1109 @@
+fileFormatVersion: 2
+guid: 88256997498e2e147896dcb14b4a129b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7413207781502959956
+    second: Icons_Printsheet_0
+  - first:
+      213: 8417416138703836299
+    second: Icons_Printsheet_1
+  - first:
+      213: -4794579408664271297
+    second: Icons_Printsheet_2
+  - first:
+      213: 8321619028702156072
+    second: Icons_Printsheet_3
+  - first:
+      213: 5180866139475576312
+    second: Icons_Printsheet_4
+  - first:
+      213: 4098294166105323439
+    second: Icons_Printsheet_5
+  - first:
+      213: 6980933978906867448
+    second: Icons_Printsheet_6
+  - first:
+      213: 2686824943170549940
+    second: Icons_Printsheet_7
+  - first:
+      213: 6787773017484027178
+    second: Icons_Printsheet_8
+  - first:
+      213: 2034513726530167250
+    second: Icons_Printsheet_9
+  - first:
+      213: -4414994931571348440
+    second: Icons_Printsheet_10
+  - first:
+      213: 6370690687673953219
+    second: Icons_Printsheet_11
+  - first:
+      213: 955908501645120327
+    second: Icons_Printsheet_12
+  - first:
+      213: -5346858647235953423
+    second: Icons_Printsheet_13
+  - first:
+      213: -8206040208506640255
+    second: Icons_Printsheet_14
+  - first:
+      213: -7047611089190380379
+    second: Icons_Printsheet_15
+  - first:
+      213: -5845352608431535074
+    second: Icons_Printsheet_16
+  - first:
+      213: -91349632015813271
+    second: Icons_Printsheet_17
+  - first:
+      213: -7995889588788430887
+    second: Icons_Printsheet_18
+  - first:
+      213: 8592331157528590820
+    second: Icons_Printsheet_19
+  - first:
+      213: -54695234676228040
+    second: Icons_Printsheet_20
+  - first:
+      213: -6473977030550276251
+    second: Icons_Printsheet_21
+  - first:
+      213: -3885363952032695841
+    second: Icons_Printsheet_22
+  - first:
+      213: -3361592893938931470
+    second: Icons_Printsheet_23
+  - first:
+      213: 3468250952359359768
+    second: Icons_Printsheet_24
+  - first:
+      213: -3231860906732073093
+    second: Icons_Printsheet_25
+  - first:
+      213: 1626827497834393685
+    second: Icons_Printsheet_26
+  - first:
+      213: 8298039077499822617
+    second: Icons_Printsheet_27
+  - first:
+      213: -1945579216050630267
+    second: Icons_Printsheet_28
+  - first:
+      213: 9142273695286668380
+    second: Icons_Printsheet_29
+  - first:
+      213: 6418355939814080022
+    second: Icons_Printsheet_30
+  - first:
+      213: -6949806148235272024
+    second: Icons_Printsheet_31
+  - first:
+      213: -4733092993300133999
+    second: Icons_Printsheet_32
+  - first:
+      213: 5947597221429913598
+    second: Icons_Printsheet_33
+  - first:
+      213: 7588630967761194079
+    second: Icons_Printsheet_34
+  - first:
+      213: -4483938165936716114
+    second: Icons_Printsheet_35
+  - first:
+      213: 8645329610088603402
+    second: Icons_Printsheet_36
+  - first:
+      213: 3939412331267558690
+    second: Icons_Printsheet_37
+  - first:
+      213: -2851653142777074108
+    second: Icons_Printsheet_38
+  - first:
+      213: 171761446455124039
+    second: Icons_Printsheet_39
+  - first:
+      213: -5107958591057707087
+    second: Icons_Printsheet_40
+  - first:
+      213: -2203300599850120808
+    second: Icons_Printsheet_41
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icons_Printsheet_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4521dd6bd13e13a4aa6b92936735d1b5
+      internalID: 7413207781502959956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_1
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a61b066e025b08438ee6dc7fe12a275
+      internalID: 8417416138703836299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b39b7610f4147e4fabda9c14de37349
+      internalID: -4794579408664271297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f5a9bc3878d8a41ad2dadab1669f6a
+      internalID: 8321619028702156072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_4
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b59b6a7861e344cbaf92986fe1f1b1
+      internalID: 5180866139475576312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_5
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1788
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9cf1e1a5ea55647a66dc3927bfb025
+      internalID: 4098294166105323439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cea72dc4fd5794f8150fee357f380a
+      internalID: 6980933978906867448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ab260c72241848b39ac443391aa94
+      internalID: 2686824943170549940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d8049590f8dc94782df0a6075a41b3
+      internalID: 6787773017484027178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_9
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37c2c3b2f26d2b4ab95e4afa532de68
+      internalID: 2034513726530167250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_10
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404ddf13e22bbd148bd0ad709f52cd7b
+      internalID: -4414994931571348440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_11
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1518
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0e4f1fd59a49544a23f0825535d832
+      internalID: 6370690687673953219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4309f5dc504af8548b71c7d803b55537
+      internalID: 955908501645120327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_13
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0560391d43dc54c8bd75eb69856fe5
+      internalID: -5346858647235953423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0e5452846eccd4bbceb338cede7ccd
+      internalID: -8206040208506640255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_15
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21118431174ec9a4d84686d00487afa6
+      internalID: -7047611089190380379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_16
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05f16831d945a46b0d42811c065c45
+      internalID: -5845352608431535074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_17
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1248
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56fa926e17f6424d82dfde55a1d9742
+      internalID: -91349632015813271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e33a603fddb0d43aa71da1f1f983f8
+      internalID: -7995889588788430887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_19
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d7f4ae97e5b0f40a8b799268dd53bc
+      internalID: 8592331157528590820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_20
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee18571ca531794cb6dbaa728ff68ce
+      internalID: -54695234676228040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_21
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54e7ba0022a0f4c9c3badccb9ec4aa
+      internalID: -6473977030550276251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_22
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50049f1d9eff864e80605adcfae3ede
+      internalID: -3885363952032695841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_23
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 978
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ee1127b06de54ea8635fda53c7a6b
+      internalID: -3361592893938931470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f260cdf106dcf4fa6871224517aa06
+      internalID: 3468250952359359768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7019caf3b1d4c4cb2dcc9bf9c20043
+      internalID: -3231860906732073093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_26
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f32128852eee143bd2c4c65488b968
+      internalID: 1626827497834393685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_27
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b322bdbca90a7b3488a32aa4687575e3
+      internalID: 8298039077499822617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_28
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60499676181609743b7ca5a7525c180f
+      internalID: -1945579216050630267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_29
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 708
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98455d75df6f274fbf47d025586eb66
+      internalID: 9142273695286668380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5cc4757fd50b49830b4597a26392a
+      internalID: 6418355939814080022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_31
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d32db7e1cb63742a4b653de64b0bb8
+      internalID: -6949806148235272024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_32
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28709b559245e7c4f83d1c16220b8483
+      internalID: -4733092993300133999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_33
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8f29efe81cb9b4080975ae4681e5c5
+      internalID: 5947597221429913598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_34
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a905d99cbd5733143b0a70b3ad67a229
+      internalID: 7588630967761194079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_35
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 438
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540b7c013e1da924abb7fde6075376ae
+      internalID: -4483938165936716114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069e7912d40949042bcd6a576796af25
+      internalID: 8645329610088603402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd99d84eee83cd4aae1783ac68960b1
+      internalID: 3939412331267558690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ed535351146c5488c263d393874dda
+      internalID: -2851653142777074108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_39
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb031e0d49f3f94cb0d52423ddf9c34
+      internalID: 171761446455124039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_40
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302a34f924a7f3b4fbf94ef7e60bc58b
+      internalID: -5107958591057707087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_Printsheet_41
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 168
+        width: 230
+        height: 230
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820315ae526e894ea814974f0014866
+      internalID: -2203300599850120808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be6f51bb3d7de8849b5c13d5556e93ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
