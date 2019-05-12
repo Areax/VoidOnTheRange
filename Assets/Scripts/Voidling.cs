@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Voidling : MovingObject
+public class Voidling : GamePiece
 {
-    int numMovesLeft;
-
-    enum Form
+    public enum Form
     {
         Shadow,
         Embodied,
         Portal
     }
 
-    Form form;
+    private Form form;
+
+    public Form VoidlingForm { get; set; }
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
         form = Form.Shadow;
 
@@ -32,12 +32,8 @@ public class Voidling : MovingObject
                 numMovesLeft = 0;
                 break;
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        base.Start();
     }
 
     void PortalTravel()
@@ -50,8 +46,21 @@ public class Voidling : MovingObject
 
     }
 
-    protected override void OnCantMove<T>(T component)
+    public override bool CanMove()
     {
-        throw new System.NotImplementedException();
+        if (GameManager.instance.IsVoidPlayerTurn && numMovesLeft > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public override void ResetMovement()
+    {
+        numMovesLeft = 5;
+        selected = false;
     }
 }

@@ -4,5 +4,4 @@ using UnityEngine;
 
 public abstract class GamePiece : MovingObject
 {
-    public int numMovesLeft;
 }

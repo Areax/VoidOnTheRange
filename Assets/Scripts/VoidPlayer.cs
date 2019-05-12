@@ -2,26 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VoidPlayer : MonoBehaviour, Player
+public class VoidPlayer : Player
 {
-    int numActions;
-
-    // Start is called before the first frame update
-    void Start()
+    public override bool IsThisPlayersTurn()
     {
-        numActions = 3;
+        return GameManager.instance.IsVoidPlayerTurn;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void HighlightTiles(Tile tile)
     {
-        if (GameManager.instance.voidPlayerTurn && numActions > 0)
+        Voidling voidling = (Voidling)GameManager.instance.MovingObject;
+
+        if (voidling.VoidlingForm == Voidling.Form.Shadow && voidling.CanMove())
         {
-
+            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
+            taintedTiles.Add(tile);
+            voidling.NumMovesLeft--;
         }
-    }
-
-    private void OnDisable()
-    {
     }
 }

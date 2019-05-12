@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class Wrangler : GamePiece
 {
-    // Start is called before the first frame update
-    /*void Start()
-    {
-        numMovesLeft = 3;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }*/
-
     void Lasso()
     {
         // on up click
@@ -39,8 +27,21 @@ public class Wrangler : GamePiece
         // subtract movement
     }
 
-    protected override void OnCantMove<T>(T component)
+    public override bool CanMove()
     {
-        throw new System.NotImplementedException();
+        if (!GameManager.instance.IsVoidPlayerTurn && numMovesLeft > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public override void ResetMovement()
+    {
+        numMovesLeft = 3;
+        selected = false;
     }
 }

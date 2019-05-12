@@ -28,23 +28,23 @@ public class BoardManager : MonoBehaviour
         //gridPositions.Clear();
 
         // Wranglers
-        Instantiate(wrangler, gridPositions[2][3].transform.position, Quaternion.identity);
-        Instantiate(wrangler, gridPositions[10][2].transform.position, Quaternion.identity);
+        InitializeGamePiece(wrangler, gridPositions[2][3].transform);
+        InitializeGamePiece(wrangler, gridPositions[10][2].transform);
         // Cows
-        Instantiate(cow, gridPositions[4][2].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[5][0].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[5][4].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[6][2].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[7][1].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[8][3].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[11][5].transform.position, Quaternion.identity);
-        Instantiate(cow, gridPositions[12][7].transform.position, Quaternion.identity);
+        InitializeGamePiece(cow, gridPositions[4][2].transform);
+        InitializeGamePiece(cow, gridPositions[5][0].transform);
+        InitializeGamePiece(cow, gridPositions[5][4].transform);
+        InitializeGamePiece(cow, gridPositions[6][2].transform);
+        InitializeGamePiece(cow, gridPositions[7][1].transform);
+        InitializeGamePiece(cow, gridPositions[8][3].transform);
+        InitializeGamePiece(cow, gridPositions[11][5].transform);
+        InitializeGamePiece(cow, gridPositions[12][7].transform);
 
         // Void Spawn
-        Instantiate(voidling, gridPositions[0][9].transform.position, Quaternion.identity);
-        Instantiate(voidling, gridPositions[1][8].transform.position, Quaternion.identity);
-        Instantiate(voidling, gridPositions[2][9].transform.position, Quaternion.identity);
-        Instantiate(voidling, gridPositions[2][10].transform.position, Quaternion.identity);
+        InitializeGamePiece(voidling, gridPositions[0][9].transform);
+        InitializeGamePiece(voidling, gridPositions[1][8].transform);
+        InitializeGamePiece(voidling, gridPositions[2][9].transform);
+        InitializeGamePiece(voidling, gridPositions[2][10].transform);
     }
 
     void BoardSetup()
@@ -68,6 +68,8 @@ public class BoardManager : MonoBehaviour
 
                 GameObject instance = Instantiate(tile, new Vector3(x * xOffset, yPos, 0), Quaternion.Euler(new Vector3(0, 0, 90)));
                 gridPositions[x][y] = instance;
+                instance.AddComponent<Tile>();
+                instance.GetComponent<Tile>().SetCoordinates(x, y);
             }
         }
     }
@@ -76,5 +78,11 @@ public class BoardManager : MonoBehaviour
     {
         BoardSetup();
         InitializeList();
+    }
+
+    private void InitializeGamePiece(GameObject gameObject, Transform resultTransform)
+    {
+        GameObject child = Instantiate(gameObject, resultTransform.position, Quaternion.identity);
+        child.transform.SetParent(resultTransform);
     }
 }

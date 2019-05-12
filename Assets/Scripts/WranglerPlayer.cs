@@ -2,17 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CowboyPlayer : MonoBehaviour
+public class WranglerPlayer : Player
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool IsThisPlayersTurn()
     {
-        
+        return !GameManager.instance.IsVoidPlayerTurn;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void HighlightTiles(Tile tile)
     {
-        
+        Wrangler wrangler = (Wrangler)GameManager.instance.MovingObject;
+
+        if (wrangler.CanMove())
+        {
+            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
+            taintedTiles.Add(tile);
+            wrangler.NumMovesLeft--;
+        }
     }
 }

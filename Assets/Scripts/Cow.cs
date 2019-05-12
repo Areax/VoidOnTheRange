@@ -2,22 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cow : MovingObject
+public class Cow : MonoBehaviour
 {
-    protected override void OnCantMove<T>(T component)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

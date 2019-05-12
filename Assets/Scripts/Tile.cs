@@ -4,22 +4,36 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    private bool taintedTile;
     private Color originalColor;
+    private int x = 0;
+    private int y = 0;
+
+    public void SetCoordinates(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int GetX() { return x; }
+    public int GetY() { return y; }
+
+    public void ResetColor()
+    {
+        GetComponent<Renderer>().material.color = originalColor;
+    }
 
     void Awake()
     {
-        taintedTile = false;
         originalColor = GetComponent<Renderer>().material.color;
     }
 
     void Update()
     {
-        if (GameManager.instance.gamePieceIsSelected == false && taintedTile)
+        /*if (GameManager.instance.gamePieceIsSelected == false && taintedTile)
         {
             GetComponent<Renderer>().material.color = originalColor;
             taintedTile = false;
-        }
+        }*/
     }
 
     private void OnMouseOver()
@@ -28,13 +42,6 @@ public class Tile : MonoBehaviour
         // set GameManager to true?
         // if void make it purple
         // otherwise make it yellow
-        if(GameManager.instance.gamePieceIsSelected == true && !taintedTile)
-        {
-            if (GameManager.instance.voidPlayerTurn)
-            {
-                GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
-                taintedTile = true;
-            }
-        }
+        //GameManager.instance.TryHighlightTiles(this);
     }
 }
