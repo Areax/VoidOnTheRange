@@ -5,8 +5,8 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     private Color originalColor;
-    private int x = 0;
-    private int y = 0;
+    public int x = 0;
+    public int y = 0;
 
     public void SetCoordinates(int x, int y)
     {
@@ -14,8 +14,8 @@ public class Tile : MonoBehaviour
         this.y = y;
     }
 
-    public int GetX() { return x; }
-    public int GetY() { return y; }
+    public int X { get { return x; } }
+    public int Y { get { return y; } }
 
     public void ResetColor()
     {

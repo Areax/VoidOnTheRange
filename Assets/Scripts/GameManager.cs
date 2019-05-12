@@ -63,4 +63,9 @@ public class GameManager : MonoBehaviour
             voidPlayer.ResetNumActions();
         }
     }
+
+    public Player GetCurrentPlayer()
+    {
+        return IsVoidPlayerTurn ? (Player) voidPlayer : (Player) wranglerPlayer;
+    }
 }

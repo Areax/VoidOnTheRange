@@ -9,7 +9,7 @@ public class VoidPlayer : Player
         return GameManager.instance.IsVoidPlayerTurn;
     }
 
-    public override void HighlightTiles(Tile tile)
+    public override bool TryHighlightTiles(Tile tile)
     {
         Voidling voidling = (Voidling)GameManager.instance.MovingObject;
 
@@ -18,6 +18,9 @@ public class VoidPlayer : Player
             taintedTiles.Add(tile);
             tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             voidling.NumMovesLeft--;
+            return true;
         }
+
+        return false;
     }
 }

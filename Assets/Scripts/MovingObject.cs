@@ -29,6 +29,7 @@ public abstract class MovingObject : MonoBehaviour
         if (!selected && Input.GetMouseButtonDown(0) && CanMove())
         {
             GameManager.instance.MovingObject = this;
+            GameManager.instance.GetCurrentPlayer().AddTaintedTile(this.transform.parent);
             selected = true;
         }
     }

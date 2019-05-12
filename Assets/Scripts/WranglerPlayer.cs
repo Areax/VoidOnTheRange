@@ -9,7 +9,7 @@ public class WranglerPlayer : Player
         return !GameManager.instance.IsVoidPlayerTurn;
     }
 
-    public override void HighlightTiles(Tile tile)
+    public override bool TryHighlightTiles(Tile tile)
     {
         Wrangler wrangler = (Wrangler)GameManager.instance.MovingObject;
 
@@ -18,6 +18,9 @@ public class WranglerPlayer : Player
             taintedTiles.Add(tile);
             tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             wrangler.NumMovesLeft--;
+            return true;
         }
+
+        return false;
     }
 }
