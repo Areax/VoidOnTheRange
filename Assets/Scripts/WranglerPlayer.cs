@@ -15,8 +15,8 @@ public class WranglerPlayer : Player
 
         if (wrangler.CanMove())
         {
-            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             taintedTiles.Add(tile);
+            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             wrangler.NumMovesLeft--;
         }
     }

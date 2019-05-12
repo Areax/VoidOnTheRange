@@ -10,7 +10,7 @@ public abstract class Player : MonoBehaviour
     void Awake()
     {
         taintedTiles = new List<Tile>();
-        SetNumActions();
+        ResetNumActions();
     }
 
     void Update()
@@ -88,7 +88,7 @@ public abstract class Player : MonoBehaviour
         return numActions > 0 ? true : false;
     }
 
-    protected void SetNumActions()
+    public void ResetNumActions()
     {
         numActions = 3;
     }

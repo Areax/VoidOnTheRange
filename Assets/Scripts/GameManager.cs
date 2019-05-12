@@ -55,10 +55,12 @@ public class GameManager : MonoBehaviour
         if(IsVoidPlayerTurn && !voidPlayer.HasActionsLeft())
         {
             IsVoidPlayerTurn = false;
+            wranglerPlayer.ResetNumActions();
         }
         else if(!IsVoidPlayerTurn && !wranglerPlayer.HasActionsLeft())
         {
             IsVoidPlayerTurn = true;
+            voidPlayer.ResetNumActions();
         }
     }
 }

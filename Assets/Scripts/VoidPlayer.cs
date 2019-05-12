@@ -15,8 +15,8 @@ public class VoidPlayer : Player
 
         if (voidling.VoidlingForm == Voidling.Form.Shadow && voidling.CanMove())
         {
-            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             taintedTiles.Add(tile);
+            tile.GetComponent<Renderer>().material.SetColor("_Color", new Color(128, 0, 128));
             voidling.NumMovesLeft--;
         }
     }
